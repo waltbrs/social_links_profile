@@ -101,4 +101,13 @@ section ul a {
     text-align: center;
     padding: 10px;
     border-radius: 10px;
+
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 150ms;
+}
+
+section ul a:hover,
+section ul a:focus {
+    background-color: var(--green);
+    color: var(--grey700);
 }
